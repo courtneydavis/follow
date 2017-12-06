@@ -1,0 +1,77 @@
+//Mixin
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin transition($transition) {
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  -moz-transition: $transition;
+  -webkit-transition: $transition;
+  transition: $transition;
+}
+
+//Variables
+$blue: #1b98fc;
+$white: #ffffff;
+$grey: #999999;
+
+.follow-wrapper {
+  .section {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    .image {
+      display: block;
+      @include border-radius(8px 8px 0 0);
+      img {
+        max-width: 100%;
+      }
+    }
+    .inner {
+      background-color: $white;
+      padding: 0 30px 30px;
+      a {
+        color: $blue;
+        text-decoration: none;
+        @include transition(.3s);
+        &:hover {
+          color: $grey;
+        }
+      }
+      .top {
+        position: relative;
+        top: -45px;
+        .button {
+          border: 2px solid $blue;
+          background-color: $white;
+          color: $blue;
+          text-decoration: none;
+          padding: 7px 27px;
+          @include border-radius(10px);
+          position: absolute;
+          bottom: 4px;
+          right: 0;
+          @include transition(.3s);
+          &:hover {
+            background-color: $blue;
+            color: $white;
+          }
+        }
+      }
+      .success {
+        display: none;
+        &.show {
+          display: block;
+        }
+      }
+      h1 {
+        font-size: 24px;
+        font-weight: normal;
+      }
+    }
+  }
+}

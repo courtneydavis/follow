@@ -1,0 +1,37 @@
+//Variables
+$font: Helvetica, sans-serif;
+$primary-color: #333;
+$blue: #1b98fc;
+$white: #ffffff;
+$grey: #999999;
+$dark-grey: #222222;
+
+body {
+  background-color: #aaaaaa;
+  font: 16px $font;
+  color: $primary-color;
+  margin: 0;
+  .header {
+    background-color: $dark-grey;
+    h1 {
+      color: $white;
+      margin: 0;
+      text-align: center;
+      padding: 20px;
+    }
+  }
+  .container {
+    padding: 40px;
+  }
+  .footer {
+    background-color: $dark-grey;
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+    p {
+      color: $white;
+    }
+  }
+}
+
+@import 'follow';

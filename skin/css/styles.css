@@ -1,0 +1,80 @@
+body {
+  background-color: #aaaaaa;
+  font: 16px Helvetica, sans-serif;
+  color: #333;
+  margin: 0; }
+  body .header {
+    background-color: #222222; }
+    body .header h1 {
+      color: #ffffff;
+      margin: 0;
+      text-align: center;
+      padding: 20px; }
+  body .container {
+    padding: 40px; }
+  body .footer {
+    background-color: #222222;
+    margin: 0;
+    text-align: center;
+    padding: 5px; }
+    body .footer p {
+      color: #ffffff; }
+
+.follow-wrapper .section {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto; }
+  .follow-wrapper .section .image {
+    display: block;
+    -webkit-border-radius: 8px 8px 0 0;
+    -moz-border-radius: 8px 8px 0 0;
+    -ms-border-radius: 8px 8px 0 0;
+    border-radius: 8px 8px 0 0; }
+    .follow-wrapper .section .image img {
+      max-width: 100%; }
+  .follow-wrapper .section .inner {
+    background-color: #ffffff;
+    padding: 0 30px 30px; }
+    .follow-wrapper .section .inner a {
+      color: #1b98fc;
+      text-decoration: none;
+      -o-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+      .follow-wrapper .section .inner a:hover {
+        color: #999999; }
+    .follow-wrapper .section .inner .top {
+      position: relative;
+      top: -45px; }
+      .follow-wrapper .section .inner .top .button {
+        border: 2px solid #1b98fc;
+        background-color: #ffffff;
+        color: #1b98fc;
+        text-decoration: none;
+        padding: 7px 27px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        border-radius: 10px;
+        position: absolute;
+        bottom: 4px;
+        right: 0;
+        -o-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -webkit-transition: 0.3s;
+        transition: 0.3s; }
+        .follow-wrapper .section .inner .top .button:hover {
+          background-color: #1b98fc;
+          color: #ffffff; }
+    .follow-wrapper .section .inner .success {
+      display: none; }
+      .follow-wrapper .section .inner .success.show {
+        display: block; }
+    .follow-wrapper .section .inner h1 {
+      font-size: 24px;
+      font-weight: normal; }
+
+/*# sourceMappingURL=styles.css.map */

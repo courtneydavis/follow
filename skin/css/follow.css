@@ -1,0 +1,24 @@
+.follow-wrapper {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto; }
+  .follow-wrapper .image {
+    display: block; }
+    .follow-wrapper .image img {
+      max-width: 100%; }
+  .follow-wrapper .inner {
+    background-color: #ffffff; }
+    .follow-wrapper .inner .button {
+      border: 1px solid #1b98fc;
+      background-color: #ffffff;
+      color: #1b98fc;
+      text-decoration: none;
+      padding: 7px 27px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px; }
+    .follow-wrapper .inner h1 {
+      font-size: 24px; }
+
+/*# sourceMappingURL=follow.css.map */
