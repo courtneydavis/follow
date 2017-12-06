@@ -1,9 +1,8 @@
 function setToShow() {
-    document.getElementById('followSuccess').classList.toggle('show');
-    setTimeout("setToHide()", 2000);
+    document.getElementById('followSuccess').classList.toggle('fade');
+    setTimeout("setToHide()", 4000);
 }
 
 function setToHide() {
-    document.getElementById('followSuccess').classList.remove('show');
+    document.getElementById('followSuccess').classList.remove('fade');
 }
-

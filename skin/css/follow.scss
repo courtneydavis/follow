@@ -62,16 +62,18 @@ $grey: #999999;
           }
         }
       }
-      .success {
-        display: none;
-        &.show {
-          display: block;
-        }
-      }
       h1 {
         font-size: 24px;
         font-weight: normal;
       }
     }
   }
+}
+.success {
+  opacity:0;
+  transition: opacity 1s;
+}
+
+.success.fade {
+  opacity:1;
 }

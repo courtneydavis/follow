@@ -69,12 +69,15 @@ body {
         .follow-wrapper .section .inner .top .button:hover {
           background-color: #1b98fc;
           color: #ffffff; }
-    .follow-wrapper .section .inner .success {
-      display: none; }
-      .follow-wrapper .section .inner .success.show {
-        display: block; }
     .follow-wrapper .section .inner h1 {
       font-size: 24px;
       font-weight: normal; }
+
+.success {
+  opacity: 0;
+  transition: opacity 1s; }
+
+.success.fade {
+  opacity: 1; }
 
 /*# sourceMappingURL=styles.css.map */
